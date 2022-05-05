@@ -1,3 +1,7 @@
-#theinsights
+#theinsights social app
 
-#this branch contains all projects mern and frontend, and some has its master repo.
+#this is a facebook clone app with basic facebook functionality
+
+#its the lite version of facebook...
+
+#tools used context api, mui, mongodb atlass
