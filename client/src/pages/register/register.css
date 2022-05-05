@@ -1,0 +1,90 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(224, 222, 222, 0.4),rgb(224, 222, 222, 0.4)), url("https://i.ibb.co/56MBLWK/register.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.registerTitle{
+    font-size: 50px;
+    font-family: "Varela Round", sans-serif; 
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.registerForm > label{
+    margin: 10px 0px;
+    color:rgb(31, 30, 30);
+    font-family: "Varela Round", sans-serif; 
+}
+
+.registerForm > input{
+    padding: 10px;
+    background-color: white;
+    border:none;   
+}
+
+.registerInput:focus{
+    outline: none;
+  }
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    border: none;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;;
+    background-color: rgb(241, 77, 77);
+    cursor: pointer;
+}
+
+.regsiterVerifyMsg{
+    margin-top: 20px;
+    color: white;
+    font-size: 15;
+    background-color: teal;
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+  }
+
+@media screen and (max-width: 480px){
+    .register{
+        height: 100%;
+    }
+
+    .registerTitle{
+        margin-top: 100px;
+    }
+
+    .mobileMarginBottom{
+        margin-bottom: 130px;
+      }
+
+    .regsiterVerifyMsg{
+        font-size: 11;
+        width: 250px;
+        padding: 10px;
+      }
+}

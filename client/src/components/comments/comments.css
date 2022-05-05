@@ -1,0 +1,54 @@
+.commentEditClose{
+    position: absolute;
+    top:10%;
+    right: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: teal;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.commentEditMode{
+    display: flex;
+    flex-direction: column;
+}
+
+.CommentEditInput{
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border:none;
+    border-bottom: 1px solid rgb(158, 156, 156);
+}
+
+.CommentEditInput:focus{
+    outline: none;
+}
+
+.CommentEditButton{
+    background-color: teal;
+    color:white;
+    margin-top: 20px;
+    border: none;
+    font-weight: 600;
+    padding: 10px 0px;
+    width: 20%;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width:480px) {
+    .CommentEditButton{
+        width: 30%;
+    }
+}

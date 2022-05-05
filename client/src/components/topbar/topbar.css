@@ -1,0 +1,124 @@
+.topbar{
+    width:100%;
+    height:50px;
+    position:sticky;
+    background-color: white;
+    top:0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+}
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topIcon{
+    margin-right: 10px;
+    font-size: 20px;
+    color:#444;
+    cursor: pointer;
+}
+
+.topCenter{
+    flex:6;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.topList .active, .topList a:hover{
+    color:tomato;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearchIcon{
+    font-size: 18px;
+    color:#666;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.topbarUsername{
+    font-size: 13px;
+    margin-left: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+
+    .topListItem{
+        margin-right: 10px;
+        font-size: 8px !important;
+    }
+
+    .topSearchIcon{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .topImg{
+        width: 25px;
+        height: 25px;
+    }
+
+    .topIcon{
+       font-size: 10px;
+       margin-right: 5px;
+    }
+
+    .topLeft{
+        margin-left: 5px;
+    }
+
+    .topRight{
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .topCenter{
+        margin-left: 5px;
+    }
+
+    .topbarUsername{
+        font-size: 12px;
+        margin-left: 3px;
+        font-weight: 600;
+        width: 32px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .topbarUsername{
+        width: 60px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}

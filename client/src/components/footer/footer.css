@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+}
+
+.footerWrapper{
+    height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'varela Round', sans-serif;
+}
+
+.footerText1{
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+}
+
+.footerText2{
+    color: rgb(214, 212, 212);
+    font-size: 11px;
+}
+
+@media screen and (max-width:480px) {
+    .footerWrapper{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
