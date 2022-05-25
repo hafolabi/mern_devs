@@ -1,3 +1,3 @@
-#theinsights
+#theinsights_dev
 
-#this branch contains all projects mern and frontend, and some has its master repo.
+#this master repo contains branches that includes all MERN projects and some frontend UIs.
