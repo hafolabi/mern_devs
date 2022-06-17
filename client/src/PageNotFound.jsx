@@ -23,7 +23,7 @@ import {  useParams } from "react-router-dom";
           backgroundColor: "white",
         }}
       >
-         "{params.pageName}" page does not exist</button>
+         {params.pageName} page does not exist</button>
       </div>
     )
 }
