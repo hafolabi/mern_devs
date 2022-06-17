@@ -60,29 +60,13 @@ export default function App() {
             {user ?   <Home /> : <PassReset />}
         </Route>
         
-        <Route exact path='/:pageName'>
+        <Route exact path='*'>
           <PageNotFound />
         </Route>
 
-        <Route exact path='/:pageName/:pageName'>
+        {/* <Route exact path='/:pageName/'>
           <PageNotFound />
-        </Route>
-
-        <Route exact path='/:pageName/:pageName/:pageName'>
-          <PageNotFound />
-        </Route>
-
-        <Route exact path='/:pageName/:pageName/:pageName/:pageName'>
-          <PageNotFound />
-        </Route>
-
-        <Route exact path='/:pageName/:pageName/:pageName/:pageName/:pageName'>
-          <PageNotFound />
-        </Route>
-
-        <Route exact path='/:pageName/:pageName/:pageName/:pageName/:pageName/:pageName'>
-          <PageNotFound />
-        </Route>
+        </Route> */}
 
       </Switch>
       <Footer />
