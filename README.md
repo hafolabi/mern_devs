@@ -1,3 +1,5 @@
-#theinsights_dev
+#this is a project management app, built with react, nodejs, express graphql bootstraps, mongodb
 
-#this master repo contains branches that includes all MERN projects and some frontend UIs.
+#this project allows you to asign a project to a user, delete users with projects 
+
+#and updated the projects phase
