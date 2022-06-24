@@ -2,4 +2,4 @@
 
 #this master repo contains branches that includes all MERN projects and some frontend UIs.
 
-#just uploaded the mern-project-mgmt-app branch in this repo
+UPDATE: #mern-project-mgmt-app branch in this repo just updated
